@@ -21,7 +21,7 @@ plot_data(actg315, detection_threshold = 100)
 
 
 ## ----fits---------------------------------------------------------------------
-model_output <- ushr(data = actg315, detection_threshold = 100)
+model_output <- ushr(data = actg315, detection_threshold = 100, censor_value = 50)
 
 
 ## ----bpfits, fig.width = 6, fig.height = 4------------------------------------
@@ -57,7 +57,7 @@ TTSparametric %>% summarize(median = median(TTS), SD = sd(TTS), N = n())
 ## ----TTSnonparametric---------------------------------------------------------
 
 TTSnonparametric <- get_TTS(data = actg315, parametric = FALSE, 
-                                suppression_threshold = 100)
+                                suppression_threshold = 100, censor_value = 50)
 head(TTSnonparametric)
 
 TTSnonparametric %>% summarize(median = median(TTS), SD = sd(TTS), N = n())

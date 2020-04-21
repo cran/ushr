@@ -1,8 +1,8 @@
 Package: ushr
 Type: Package
 Title: Understanding Suppression of HIV
-Version: 0.2.2
-Date: 2020-03-22
+Version: 0.2.3
+Date: 2020-04-21
 Authors@R: c(person("Sinead E.", "Morris", role = c("aut", "cre"),
                      email = "sinead.morris@columbia.edu",
 		     comment = c(ORCID = "0000-0001-8626-1698")),
@@ -21,9 +21,9 @@ Suggests: GGally (>= 1.4.0), knitr (>= 1.22), rmarkdown (>= 1.12),
 VignetteBuilder: knitr
 URL: https://github.com/SineadMorris/ushr
 NeedsCompilation: no
-Packaged: 2020-03-22 17:31:08 UTC; sineadmorris
+Packaged: 2020-04-21 17:08:33 UTC; sineadmorris
 Author: Sinead E. Morris [aut, cre] (<https://orcid.org/0000-0001-8626-1698>),
   Luise Dziobek-Garrett [ctb],
   Andrew Yates [ctb]
 Repository: CRAN
-Date/Publication: 2020-03-23 02:50:02 UTC
+Date/Publication: 2020-04-21 18:20:03 UTC
